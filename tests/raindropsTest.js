@@ -1,5 +1,5 @@
 describe('Raindrops features test', () => {
-  let raindrops
+  let raindrops;
 
   beforeEach(() => {
     raindrops = new Raindrops();
