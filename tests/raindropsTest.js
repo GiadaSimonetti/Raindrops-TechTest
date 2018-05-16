@@ -18,19 +18,19 @@ describe('Raindrops features test', () => {
   });
 
   it('returns `PlingPlang` if the number has factors of 3 and 5', () => {
-    expect(raindrops.plingPlangPlong(15)).toEqual('PlingPlang');
+    expect(raindrops.plingPlangPlong(3 * 5)).toEqual('PlingPlang');
   });
 
   it('returns `PlingPlong` if the number has factors of 3 and 7', () => {
-    expect(raindrops.plingPlangPlong(21)).toEqual('PlingPlong');
+    expect(raindrops.plingPlangPlong(3 * 7)).toEqual('PlingPlong');
   });
 
   it('returns `PlangPlong` if the number has factors of 5 and 7', () => {
-    expect(raindrops.plingPlangPlong(35)).toEqual('PlangPlong');
+    expect(raindrops.plingPlangPlong(5 * 7)).toEqual('PlangPlong');
   });
 
   it('returns `PlingPlangPlong` if the number has factors of 3, 5 and 7', () => {
-    expect(raindrops.plingPlangPlong(105)).toEqual('PlingPlangPlong');
+    expect(raindrops.plingPlangPlong(3 * 5 * 7)).toEqual('PlingPlangPlong');
   });
 
   it('returns the number if the number has not a factor of 3 or 5 or 7', () => {
