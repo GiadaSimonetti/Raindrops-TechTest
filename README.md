@@ -1,9 +1,9 @@
 # Raindrops-TechTest
 
-```
-Tech Test
+## Task Description
 
-Raindrops:
+_**Raindrops**_
+
 Write a function that takes as its input a number (n) and converts it to a string,
 the contents of which depend on the numbers factors
 
@@ -18,34 +18,37 @@ Examples:
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
 
 This test can be completed in a language of your choice and should be made available on your github account. You should write tests to cover your expected range of inputs and outputs. Commit often and document well.
-```
 
 ## Approach
 
-After I installed karma e jasmine I started creating a test folder and follow the TDD way: first the tests, then the functions and finally the refactor.
+After I installed karma and jasmine I started creating a test folder and followed the TDD way: first the tests, then the functions and finally the refactor.
 
 
 ## Instructions
 
-Prerequisites
-node installed
+Prerequisites: node installed
 
-- to run app
+### Setup
 
 ```sh
 $ git clone https://github.com/GiadaSimonetti/Raindrops-TechTest
 $ cd Raindrops-TechTest
 $ npm install
-$ open index.html
- go to the browser and open the console (alt+cmd+j or right click and inspect)
- type var raindrops = new Raindrops();
-      rd.plingPlangPlong(3);
-
 ```
+
+### To run it
+
+```sh
+$ open index.html
+```
+- go to the browser
+- open the console
+- type `var rd = new Raindrops();`
+- type `rd.plingPlangPlong(3);`
 
 ![console](./images/console.png?raw=true)
 
-- to run the tests:
+### To run the tests
 
 ```sh
 $ karma start
