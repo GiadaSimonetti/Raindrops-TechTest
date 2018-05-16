@@ -20,17 +20,34 @@ Examples:
 This test can be completed in a language of your choice and should be made available on your github account. You should write tests to cover your expected range of inputs and outputs. Commit often and document well.
 ```
 
+## Approach
+
+After I installed karma e jasmine I started creating a test folder and follow the TDD way: first the tests, then the functions and finally the refactor.
+
+
 ## Instructions
 
 Prerequisites
 node installed
 
-
-- to run the tests:
+- to run app
 
 ```sh
 $ git clone https://github.com/GiadaSimonetti/Raindrops-TechTest
 $ cd Raindrops-TechTest
 $ npm install
+$ open index.html
+ go to the browser and open the console (alt+cmd+j or right click and inspect)
+ type var raindrops = new Raindrops();
+      rd.plingPlangPlong(3);
+
+```
+
+![console](./images/console.png?raw=true)
+
+- to run the tests:
+
+```sh
 $ karma start
 ```
+![tests](./images/tests.png?raw=true)
