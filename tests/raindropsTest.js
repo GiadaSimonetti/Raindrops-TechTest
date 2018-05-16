@@ -20,4 +20,8 @@ describe('Raindrops features test', () => {
   it('returns `PlingPlang` if the number has factors of 3 and 5', () => {
     expect(raindrops.plingPlangPlong(15)).toEqual('PlingPlang');
   });
+
+  it('returns `PlingPlong` if the number has factors of 3 and 7', () => {
+    expect(raindrops.plingPlangPlong(21)).toEqual('PlingPlong');
+  });
 });
