@@ -1,0 +1,29 @@
+{
+  "name": "raindrops-techtest",
+  "version": "1.0.0",
+  "description": "```Tech Test",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-spec-reporter": "0.0.32",
+    "npm": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiadaSimonetti/Raindrops-TechTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiadaSimonetti/Raindrops-TechTest/issues"
+  },
+  "homepage": "https://github.com/GiadaSimonetti/Raindrops-TechTest#readme"
+}
