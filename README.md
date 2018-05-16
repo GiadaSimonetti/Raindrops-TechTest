@@ -1,9 +1,11 @@
 # Raindrops-TechTest
 
-```Tech Test
+```
+Tech Test
 
 Raindrops:
-Write a function that takes as its input a number (n) and converts it to a string, the contents of which depend on the numbers factors
+Write a function that takes as its input a number (n) and converts it to a string,
+the contents of which depend on the numbers factors
 
 - if the number has a factor of 3, output 'Pling'
 - if the number has a factor of 5, output 'Plang'
@@ -15,4 +17,20 @@ Examples:
 - 30's factors are 1, 2, 3, 5, 6, 10, 15, 30: this would be a 'PlingPlang'
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
 
-This test can be completed in a language of your choice and should be made available on your github account. You should write tests to cover your expected range of inputs and outputs. Commit often and document well.```
+This test can be completed in a language of your choice and should be made available on your github account. You should write tests to cover your expected range of inputs and outputs. Commit often and document well.
+```
+
+## Instructions
+
+Prerequisites
+node installed
+
+
+- to run the tests:
+
+```sh
+$ git clone https://github.com/GiadaSimonetti/Raindrops-TechTest
+$ cd Raindrops-TechTest
+$ npm install
+$ karma start
+```
