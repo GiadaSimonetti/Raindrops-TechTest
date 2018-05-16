@@ -2,7 +2,7 @@ class Raindrops {
 
   plingPlangPlong(n){
     if ( n % 3 === 0 && n % 5 === 0 && n % 7 === 0 ) {
-      return 'PlingPlangPlong';  
+      return 'PlingPlangPlong';
     } else if ( n % 3 === 0 && n % 5 === 0 ) {
       return 'PlingPlang';
     } else if ( n % 3 === 0 && n % 7 === 0 ) {
@@ -15,6 +15,8 @@ class Raindrops {
       return 'Plang';
     } else if ( n % 7 === 0 ) {
       return 'Plong';
+    } else {
+      return n;
     }
   }
 }
