@@ -21,6 +21,8 @@ This test can be completed in a language of your choice and should be made avail
 
 ## Approach
 
+I chose Javascript language, with Karma and Jasmine for testing.
+
 After I installed karma and jasmine I started creating a test folder and followed the TDD way: first the tests, then the functions and finally the refactor.
 
 
@@ -42,9 +44,9 @@ $ npm install
 $ open index.html
 ```
 - go to the browser
-- open the console
+- open the console (cmd + alt + j)
 - type `var rd = new Raindrops();`
-- type `rd.plingPlangPlong(3);`
+- type `rd.plingPlangPlong(n);` (where `n` is the argument)
 
 ![console](./images/console.png?raw=true)
 
