@@ -34,6 +34,10 @@ describe('Raindrops features test', () => {
   });
 
   it('returns the number if the number has not a factor of 3 or 5 or 7', () => {
-    expect(raindrops.plingPlangPlong(8)).toEqual(8);
+    expect(raindrops.plingPlangPlong(8)).toEqual('8');
+  });
+
+  it('returns `PlingPlung` if the number has factor of 9', () => {
+    expect(raindrops.plingPlangPlong(9)).toEqual('PlingPlung');
   });
 });

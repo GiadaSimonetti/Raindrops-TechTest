@@ -1,10 +1,12 @@
 class Raindrops {
+  constructor(){
+    this.map = [[3, 'Pling'], [5, 'Plang'], [7, 'Plong'], [9, 'Plung']];
+  }
 
-  plingPlangPlong(n){
-    let string = '';
-    if( n % 3 === 0 ) string += 'Pling';
-    if( n % 5 === 0 ) string += 'Plang';
-    if( n % 7 === 0 ) string += 'Plong';
-    return string || n;
+  plingPlangPlong(int){
+    const string = this.map.reduce((result, [num, subString]) => {
+      if (int % num === 0) return result + subString || result },
+       '');
+    return string || int.toString();
   }
 }
